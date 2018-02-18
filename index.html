@@ -2,6 +2,13 @@
 <html>
 <head>
 	<title>Erwin - Personal Webpage</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Erwin - Personal Website">
+	<meta name="keyword" content="Erwin, Erwin011895, Binusian, Web Developer, Software Engineer, Laravel, Vue, VueJS">
+	<meta name="author" content="Erwin011895">
+
 	<link rel="stylesheet" type="text/css" href="https://unpkg.com/papercss@1.4.1/dist/paper.min.css">
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,12 +25,17 @@
 				Software Engineer <br>
 				Web Developer
 			</h2>
+			<ul id="skills" class="inline">
+				<li class="margin-right"><code>Laravel</code></li>
+				<li class="margin-right"><code>VueJS</code></li>
+				<li class="margin-right"><code>MySQL</code></li>
+			</ul>
 		</div>
 	</div>
 
 	<router-view></router-view>
 
-	<div id="navigation" class="row flex-center border border-primary shadow margin">
+	<div id="navigation" class="row flex-right border border-primary shadow margin">
 		<ul class="inline">
 			<li class="margin-right"><router-link to="/">About me</router-link></li>
 			<li class="margin-right"><router-link to="/experiences">My Experiences</router-link></li>
@@ -35,14 +47,7 @@
 <template id="about-me">
 	<div class="row flex-center">
 		<div class="sm-6 md-4 lg-4 text-center">
-			<img src="images/photo_erwin.jpg" alt="Erwin" class="">
-		</div>
-		<div class="col-12 text-center">
-			<ul id="skills" class="inline">
-				<li class="margin-right"><code>PHP Laravel</code></li>
-				<li class="margin-right"><code>Javascript VueJS</code></li>
-				<li class="margin-right"><code>SQL</code></li>
-			</ul>
+			<img src="images/photo_erwin.jpg" alt="Erwin" class="no-border">
 		</div>
 		<div class="sm-10 md-8 lg-6 col">
 			<ol class="inline" start="2013">
@@ -74,14 +79,14 @@
 
 <template id="experiences">
 	<div class="row flex-center">
-		<div class="col-6 text-center">
+		<div class="col-12 text-center">
 			<h3>My Experiences</h3>
 			<p>
 				These experiences that made "me" until now <br>
 			</p>
 		</div>
 		
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Student at <a href="https://binus.ac.id">Binus University</a></h4>
@@ -93,7 +98,7 @@
 			</div>
 		</div>
 
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Student Organization: <a href="https://bslc.or.id">BSLC</a></h4>
@@ -117,7 +122,7 @@
 			</div>
 		</div>
 		
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Joined <a href="http://lazato.com">Lazato.com</a></h4>
@@ -140,7 +145,7 @@
 			</div>
 		</div>
 
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Internship at MNC Kapital</a></h4>
@@ -156,7 +161,7 @@
 			</div>
 		</div>
 
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Logistic Coordinator, Kathina Puja event at <a href="http://ekayana.or.id">Ekayana Arama</a></h4>
@@ -185,7 +190,7 @@
 			</div>
 		</div>
 
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Top 50 in <a href="https://www.kodeindonesia.com/">Kode Indonesia</a> challange</h4>
@@ -215,7 +220,7 @@
 			</div>
 		</div>
 
-		<div class="col-8 margin-bottom">
+		<div class="col-12 margin-bottom">
 			<div class="card shadow">
 				<div class="card-body">
 					<h4 class="card-title">Parttimer at <a href="https://ralali.com">Ralali.com</a></h4>
@@ -237,23 +242,23 @@
 <template id="contact-me">
 	<div>
 		<div class="row flex-center">
-			<div class="sm-6 md-4 lg-4 text-center">
+			<div class="col-12 text-center">
 				<h3>Contact Me</h3>
 			</div>
 		</div>
-		<div class="row flex-middle flex-center margin-bottom-small">
-			<div class="col sm-2 md-2 lg-2 ">
+		<div class="row flex-middle margin-bottom-small padding-left padding-right">
+			<div class="col-6">
 				<i class="fas fa-envelope fa-4x"></i> 
 			</div>
-			<div class="col sm-4 md-2 lg-2">
+			<div class="col-6">
 				erwin011895@gmail.com
 			</div>
 		</div>
-		<div class="row flex-middle flex-center margin-bottom-small">
-			<div class="col sm-2 md-2 lg-2">
+		<div class="row flex-middle margin-bottom-small padding-left padding-right">
+			<div class="col-6">
 				<a href="https://www.linkedin.com/in/erwin011895/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a> 
 			</div>
-			<div class="col sm-4 md-2 lg-2">
+			<div class="col-6">
 				Erwin
 			</div>
 		</div>

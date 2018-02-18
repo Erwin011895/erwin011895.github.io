@@ -9,12 +9,16 @@
 #navigation {
   position: fixed;
   bottom: 0;
-  right: 8px;
-  min-width: 50%;
-  max-width: 80%;
+  right: 0;
+  width: 90%;
   background-color: white;
+  font-size: 0.9rem;
 }
 
 #navigation ul li:before, #skills li:before {
   content: "";
+}
+
+h2 {
+	font-size: 2.5rem;
 }
