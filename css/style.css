@@ -12,7 +12,11 @@
   right: 0;
   width: 90%;
   background-color: white;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+#navigation ul {
+	width: 100%;
 }
 
 #navigation ul li:before, #skills li:before {
