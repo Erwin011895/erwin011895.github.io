@@ -1,5 +1,3 @@
-
-//routing scripts
 const ABOUT_ME = { template: '#about-me' };
 const MY_EXPERIENCES = { template: '#experiences' };
 const CONTACT_ME = { template: '#contact-me' };
@@ -14,7 +12,6 @@ const router = new VueRouter({
   routes: routes
 });
 
-//app instance
 var app = new Vue({
   router,
   data: {

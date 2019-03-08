@@ -2,15 +2,9 @@
   text-align: center;
 }
 
-#app {
-  margin-bottom: 100px;
-}
-
 #navigation {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 90%;
+  position: sticky;
+  bottom: 1rem;
   background-color: white;
   font-size: 0.8rem;
 }
