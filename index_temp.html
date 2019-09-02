@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Erwin - Personal Webpage</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Erwin - Personal Website">
+	<meta name="keyword" content="Erwin, Erwin011895, Binusian, Web Developer, Software Engineer, Laravel, Vue, VueJS">
+	<meta name="author" content="Erwin011895">
+
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/papercss@1.4.1/dist/paper.min.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+
+<div id="app" class="border border-primary shadow margin-small">
+	<div class="row flex-center">
+		<div class="col-12 text-center">
+			<h1>Erwin</h1>
+			<h2>
+				Software Engineer <br>
+				Web Developer
+			</h2>
+			<ul id="skills" class="inline">
+				<li class="margin-right"><code>Laravel</code></li>
+				<li class="margin-right"><code>MySQL</code></li>
+			</ul>
+		</div>
+	</div>
+
+	<router-view></router-view>
+
+	<div id="navigation" class="row border border-primary shadow margin-small">
+		<ul class="inline">
+			<li class="col-4"><router-link to="/">About me</router-link></li>
+			<li class="col-4"><router-link to="/experiences">My Experiences</router-link></li>
+			<li class="col-4"><router-link to="/contact-me">Contact Me</router-link></li>
+		</ul>
+	</div>
+</div>
+
+<template id="about-me">
+	<div class="row flex-center">
+		<div class="sm-6 md-4 lg-4 text-center">
+			<img src="images/photo_erwin.jpg" alt="Erwin" class="no-border">
+		</div>
+		<div class="sm-10 md-8 lg-6 col">
+			<ol class="inline" start="2013">
+				<li class="">
+					Be a Student at <a href="https://binus.ac.id/">Binus University</a>, Computer Science &amp; Statistics program.
+				</li>
+				<li class="">
+					Join Trainee at <a href="http://portal.bluejack.binus.ac.id/">Software Lab Center Binus</a>. Learnt fundamental programming with C, Java &amp; SQL.
+				</li>
+				<li class="">
+					Learn PHP &amp; Laravel with <a href="https://bslc.or.id/">BSLC</a>.
+				</li>
+				<li class="">
+					First working experience as Parttimer Web Developer at Startup <a href="http://lazato.com/">Lazato.com</a>.
+				</li>
+				<li class="">
+					March - August, Fulltime IT Intern at MNC Kapital Investama Tbk. <br>
+					October, Get achievement: Top 50 in <a href="https://www.kodeindonesia.com/">Kode Indonesia 2017</a> challange by <a href="https://www.kalibrr.id/">Kalibrr Indonesia</a> <br>
+					November, Joined <a href="https://www.ralali.com/">Ralali.com</a> as Parttime Software Engineer.
+				</li>
+				<li class="">
+					Now I'm at last semester in Binus and working at Ralali.com <br>
+					(Soon to be on December) Graduate from Binus University.
+				</li>
+			</ol>
+		</div>
+	</div>
+</template>
+
+<template id="experiences">
+	<div class="row flex-center">
+		<div class="col-12 text-center">
+			<h3>My Experiences</h3>
+			<p>
+				These experiences that made "me" until now <br>
+			</p>
+		</div>
+		
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Student at <a href="https://binus.ac.id">Binus University</a></h4>
+					<h5 class="card-subtitle">Binusian 2017, Computer Science &amp; Statistics program</h5>
+					<p class="card-text">My first class at September 23, 2013.</p>
+				</div>
+				<p class="padding-left padding-right">Binus Syahdan Campus</p>
+				<img class="image-bottom" src="images/binus_syahdan_campus.png" alt="Binus Syahdan Campus">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Student Organization: <a href="https://bslc.or.id">BSLC</a></h4>
+					<h5 class="card-subtitle">Binus Student Learning Community</h5>
+					<p class="card-text">
+						I like learning community and i chose this one. <br>
+						This organization manages the mentor-mentee system to help binusians in learning outside the university class schedules. <br>
+						I got my first Web Development skills in this organization. <br>
+						It's fun to run many events.
+					</p>
+				</div>
+
+				<p class="padding-left padding-right">Ticket to Welcome Party BSLC 2014</p>
+				<img class="image-bottom" src="images/bslc_wp_2014.png" alt="BSLC Welcome Party 2014">
+
+				<p class="padding-left padding-right">IT Division BSLC 2016</p>
+				<img class="image-bottom" src="images/bslc_it_division_2016.jpg" alt="BSLC IT Div 2016">
+
+				<p class="padding-left padding-right">Training Vacation X-over (read: crossover) Quality (TVXQ)</p>
+				<img class="image-bottom" src="images/bslc_tvxq_2017.jpg" alt="BSLC TVXQ 2017">
+			</div>
+		</div>
+		
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Joined <a href="http://lazato.com">Lazato.com</a></h4>
+					<h5 class="card-subtitle">As Parttime Web Developer</h5>
+					<p class="card-text">
+						My first working experience. I joined on March 2016 to November 2016. <br>
+						This Start-Up taught me the spirit to learn and grow together. 
+						A super team that support each other to success.
+					</p>
+				</div>
+				
+				<span class="padding-left padding-right">My first time meetup with the team. (Lazato didn't have office at that time)</span>
+				<img class="image-bottom margin-bottom-small" src="images/lazato_first_meetup.jpg" alt="Lazato, my first meetup">
+
+				<span class="padding-left padding-right">Lazato's new office opening</span>
+				<img class="image-bottom margin-bottom-small" src="images/lazato_opening_celebration.jpg" alt="Lazato's New Office opening celebration">
+				
+				<span class="padding-left padding-right">Inside the office</span>
+				<img class="image-bottom margin-bottom-small" src="images/lazato_in_office.jpg" alt="Inside Lazato office">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Internship at MNC Kapital</a></h4>
+					<h5 class="card-subtitle">Corporate experience</h5>
+					<p class="card-text">
+						This internship chance came from Binus University's 3+1 program. <br>
+						From March 2017 to August 2017.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right"></span>
+				<img class="image-bottom margin-bottom-small" src="images/mnc_kapital_indonesia.jpg" alt="MNC Kapital Indonesia">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Logistic Coordinator, Kathina Puja event at <a href="http://ekayana.or.id">Ekayana Arama</a></h4>
+					<h5 class="card-subtitle">Volunteer and Leadership Experience</a></h5>
+					<p class="card-text">
+						My first experience to handle event in Vihara. <br>
+						Someday around August, I'm entrusted by Vihara Ekayana to coordinating logistic in Kathina Puja event. <br>
+						I had to think about the preparation. I had to Lead and Manage the volunteers too.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right">
+					D-Day, 5 AM breakfast after night preparation.
+				</span>
+				<img class="image-bottom margin-bottom-small" src="images/ekayana_kathina2017_perlengkapan_2.jpg" alt="Tim Perkap 2">
+
+				<span class="padding-left padding-right">
+					After the event is over
+				</span>
+				<img class="image-bottom margin-bottom-small" src="images/ekayana_kathina2017_perlengkapan_3.jpg" alt="Tim Perlengkapan hari H">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Top 50 in <a href="https://www.kodeindonesia.com/">Kode Indonesia</a> challange</h4>
+					<h5 class="card-subtitle">Programming Contest by <a href="https://www.kalibrr.id/">Kalibrr Indonesia</a></h5>
+					<p class="card-text">
+						Contest on October 2017<br>
+						It was when I just browsing &amp; found this contest. I signed in without expectation to winning. <br>
+						Then I'm surprised to get the message that I'm in Top 50 of 2000 contestant and eligible to join in Final Round. At last I got 31st position.<br>
+						I had great experience here and there's still much to learn.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right">
+					At dinner place one day before the contest. Meet with Binusian <a href="https://jollybee.binus.ac.id/">Jollybee</a> friends &amp; <a href="http://news.ifmo.ru/en/university_live/achievements/news/5891/">Kevin Sogo, 2nd Winner on Google Code Jam 2016</a>
+				</span>
+				<img class="image-bottom margin-bottom-small" src="images/kode_indonesia_with_kevin_sogo.jpg" alt="me, Jollybee friends, and Kevin Sogo">
+
+				<span class="padding-left padding-right">
+					50 contestants preparation in Grand Final Kode Indonesia challange at BTPN tower.
+				</span>
+				<img class="image-bottom margin-bottom-small" src="images/kode_indonesia_final_round.jpg" alt="Kode Indonesia 2017 Final Round">
+
+				<span class="padding-left padding-right">
+					Score board after the contest over. I got 31st place.
+				</span>
+				<img class="image-bottom margin-bottom-small" src="images/kode_indonesia_scoreboard.jpg" alt="Kode Indonesia 2017 Final Round Score Board">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Parttimer at <a href="https://ralali.com">Ralali.com</a></h4>
+					<h5 class="card-subtitle">Parttimer Software Engineer</h5>
+					<p class="card-text">
+						Joined on November 2017 - February 2018<br>
+						I decided to work parttime again on my last semester of this university life. <br>
+						My friend recommended me to this company, and it has a great working environment.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right">Ralali Office at Arjuna, friend's birthday photo</span>
+				<img class="image-bottom margin-bottom-small" src="images/ralali_office_arjuna.jpg" alt="Ralalian friend's birthday">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Fulltime Backend Engineer at <a href="https://ralali.com">Ralali.com</a></h4>
+					<h5 class="card-subtitle">Software Engineer, Backend</h5>
+					<p class="card-text">
+						Joined on March 2017 - March 2018<br>
+						I decided to work fulltime while doing thesis.<br>
+						More challange, and more fun.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right">Ralali Office at Arjuna, my birthday</span>
+				<img class="image-bottom margin-bottom-small" src="images/ralali_full_time.jpg" alt="Ralali, Erwin's birthday">
+			</div>
+		</div>
+		
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Graduation in 2018</h4>
+					<h5 class="card-subtitle">Binus 59th Graduation</h5>
+					<p class="card-text">
+						Finally I graduated and get title "S. Kom, S.Si (Sarjana Komputer & Sarjana Sains)". S1 university life is over, and i think life will keep giving us many lessons to learn.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right">Binus Graduation at JCC, 12 Desember 2018</span>
+				<img class="image-bottom margin-bottom-small" src="images/wisuda_binus.jpg" alt="Binus Graduation 59">
+			</div>
+		</div>
+
+		<div class="col-12 margin-bottom">
+			<div class="card shadow">
+				<div class="card-body">
+					<h4 class="card-title">Becoming Lead Engineer at <a href="https://ralali.com">Ralali.com</a></h4>
+					<h5 class="card-subtitle">Lead Engineer, GRIFFIN Team</h5>
+					<p class="card-text">
+						March 2018 - Now<br>
+						my team leader informed that Ralali will form 1 new enginnering team and I was surprised that he appoint me to lead that new team.<br>
+						I think the skills, knowledge, and attitude that I learned from these 4-5 years is paid off.<br>
+						We named the team GRIFFIN and I have to keep learning to do the best.
+					</p>
+				</div>
+
+				<span class="padding-left padding-right">Ralali Office at Arjuna, 25 March 2019. GRIFFIN team 1st sprint finished</span>
+				<img class="image-bottom margin-bottom-small" src="images/griffin_1st_sprint_finished.jpg" alt="Ralali, GRIFFIN 1st sprint finished">
+			</div>
+		</div>
+
+	</div>
+</template>
+
+<template id="contact-me">
+	<div>
+		<div class="row flex-center">
+			<div class="col-12 text-center">
+				<h3>Contact Me</h3>
+			</div>
+		</div>
+		<div class="row flex-middle margin-bottom-small padding-left padding-right">
+			<div class="col-4">
+				<i class="fas fa-envelope fa-4x"></i> 
+			</div>
+			<div class="col-8">
+				erwin011895@gmail.com
+			</div>
+		</div>
+		<div class="row flex-middle margin-bottom-small padding-left padding-right">
+			<div class="col-4">
+				<a href="https://www.linkedin.com/in/erwin011895/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a> 
+			</div>
+			<div class="col-8">
+				Erwin
+			</div>
+		</div>
+	</div>
+</template>
+
+<script src="js/main.js"></script>
+</body>
+</html>
