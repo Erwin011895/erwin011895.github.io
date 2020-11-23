@@ -7,7 +7,6 @@ function shuffle(array) {
   array.sort(() => Math.random() - 0.5);
 }
 shuffle(questions);
-console.log(questions);
 
 rightCard.onclick = function () {
 	let newIndex = (parseInt(middleCardTitle.innerText.slice(1)) + 1) % questions.length;
@@ -50,10 +49,5 @@ rightCard.onclick = function () {
 	  targets: middleCard,
 	  opacity: 1,
 	  rotateY: 360,
-	})
-	// .add({
-	//   targets: middleCard,
-	//   rotateY: 360,
-	//   duration: 500,
-	// });
+	});
 }
