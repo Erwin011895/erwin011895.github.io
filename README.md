@@ -1,4 +1,6 @@
-My Personal Website
+# My Personal Website
+
+Deploy: `npm run deploy`
 
 # Getting Started with Create React App
 
