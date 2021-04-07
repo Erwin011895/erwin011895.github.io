@@ -10,7 +10,7 @@ function Content(props) {
   return (
     <div className="sm-12 md-12 text-center">
       <p dangerouslySetInnerHTML={passText(content.text)} />
-      <img src={content.image} alt={content.imageAlt} className="row flex-center article-image--half-size border-4" />
+      <img src={content.image} alt={content.imageAlt} className="row flex-center article-image--half-size no-border" />
     </div>
   );
 }

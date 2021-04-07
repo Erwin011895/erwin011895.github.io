@@ -6,7 +6,7 @@ import Posts from './data/posts.js';
 
 function App(props) {
   return (
-    <div className="margin paper">
+    <div className="margin paper App">
       <Header name={props.config.name} />
 
       {Posts.map((post, i) => 

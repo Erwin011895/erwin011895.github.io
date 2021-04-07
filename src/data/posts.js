@@ -164,7 +164,7 @@ const Posts = [
 		subtitle: `<a href="https://www.ralali.com">Ralali.com</a> - Mar 2019 to Jan 2020`,
 		contents: [
 			{
-				text: `First team: GRIFFIN, handle initiation of <a href="https://www.ralali.com/finance-product">Finance Product</a>.`,
+				text: `First team: GRIFFIN, handle initiation of Finance Products.`,
 				image: "images/griffin_1st_sprint_finished.jpg",
 				imageAlt: "Ralali Griffin Team",
 			},
@@ -193,6 +193,49 @@ const Posts = [
 				text: "Shopee ID Tech Team",
 				image: "images/shopee_3_interns_last_day.jpg",
 				imageAlt: "Shopee Tech Team",
+			},
+		],
+	},
+	{
+		title: `Trying to take HackerRank HackFest 2020`,
+		subtitle: `<a href="https://www.hackerrank.com/">HackerRank</a> - 9 Oct 2020 - 11 Oct 2020`,
+		contents: [
+			{
+				text: `Got rank 262 of 8051 (top 4%). <a href="https://www.hackerrank.com/results/hackerrank-hackfest-2020/erwin011895">Link Here</a>.`,
+				image: "images/hackerrank_hackfest_2020.png",
+				imageAlt: "Erwin Erwin011895 HackerRank HackFest 2020",
+			},
+		],
+	},
+	{
+		title: `Keep Learning from AlgoExpert & SystemExpert`,
+		subtitle: `Start learning at <a href="https://www.algoexpert.io/">AlgoExpert</a> - 2 Feb 2021`,
+		contents: [
+			{
+				text: `Complete 100 question on AlgoExpert. <a href="https://certificate.algoexpert.io/AlgoExpert%20Certificate%20AE-8ebdb9ad71">Cert</a>`,
+				image: "images/algoexpert_algoexpert.png",
+				imageAlt: "Erwin Erwin011895 AlgoExpert Certificate",
+			}, //
+			{
+				text: `Got at least 90% score from SystemExpert. <a href="https://certificate.algoexpert.io/AlgoExpert%20Certificate%20AE-8ebdb9ad71">Cert</a>`,
+				image: "images/algoexpert_systemexpert.png",
+				imageAlt: "Erwin Erwin011895 SystemExpert Certificate",
+			},
+		],
+	},
+	{
+		title: `Become a Mentor at Kotakode`,
+		subtitle: `<a href="https://kotakode.com/">Kotakode</a> Student Mentor Batch 3 - 7 Feb 2021 - 10 Apr 2021`,
+		contents: [
+			{
+				text: `Testimoni on <a href="https://www.instagram.com/p/CNXbZzBMPPD/">Kotakode's Instagram</a>`,
+				image: "https://instagram.fcgk29-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/139360120_774865573373246_7852738831824252126_n.jpg?tp=1&_nc_ht=instagram.fcgk29-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=t-fxq2y2nX4AX9WlXhF&edm=AP_V10EAAAAA&ccb=7-4&oh=f6545edf2a848352386b8c2006d640e9&oe=6093E61D&_nc_sid=4f375e",
+				imageAlt: "Poster Open Recruitment Kotakode Student Mentor Batch 3",
+			},
+			{
+				text: "Kotakode Mentor Batch 3 Gathering",
+				image: "images/kotakode_b3_mentor_gathering.jpeg",
+				imageAlt: "Kotakode Mentor Batch 3 Gathering",
 			},
 		],
 	},
