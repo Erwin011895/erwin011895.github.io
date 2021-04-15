@@ -312,6 +312,14 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/winfall/",
     },
+    {
+      siteName: "Codeforces",
+      iconifyClassname: "simple-icons:codeforces",
+      style: {
+        color: "#1E92CF",
+      },
+      profileLink: "https://codeforces.com/profile/NekuSakuraba",
+    },
     // {
     //   siteName: "Codechef",
     //   iconifyClassname: "simple-icons:codechef",
