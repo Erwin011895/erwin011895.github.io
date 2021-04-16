@@ -69,6 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 https://www.npmjs.com/package/gh-pages
 
+#### Deploy to netlify
+
+curl -X POST -d {} https://api.netlify.com/build_hooks/6079eda831db9200901db9f2
+
 remove `node_modules/.cache/gh-pages`
 
 ### `npm run build` fails to minify
