@@ -1,20 +1,18 @@
-import React from "react";
-import "./App.css";
-import Main from "./containers/Main";
-import { ThemeProvider } from "styled-components";
-import { chosenTheme } from "./theme";
-import { GlobalStyles } from "./global";
+// import logo from './logo.svg';
+import './App.css';
+import Header from './components/Header';
+import Post from './components/Post';
+import Posts from './data/posts.js';
 
-function App() {
+function App(props) {
   return (
-    <ThemeProvider theme={chosenTheme}>
-      <>
-        <GlobalStyles />
-        <div>
-          <Main theme={chosenTheme} />
-        </div>
-      </>
-    </ThemeProvider>
+    <div className="margin paper App">
+      <Header name={props.config.name} />
+
+      {Posts.map((post, i) => 
+        <Post key={i} post={post}/>
+      )}
+    </div>
   );
 }
 
