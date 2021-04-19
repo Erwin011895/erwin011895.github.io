@@ -635,7 +635,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "erwin.jpg",
     description:
-      "You can message me, I will try to reply within 24 hours. I can help you with Web Development.",
+      "You can message me, I will try to reply within 48 hours. I can help you with Web Development.",
   },
   blogSection: {
     title: "Blogs",
