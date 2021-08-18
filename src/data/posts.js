@@ -229,13 +229,29 @@ const Posts = [
 		contents: [
 			{
 				text: `Testimoni on <a href="https://www.instagram.com/p/CNXbZzBMPPD/">Kotakode's Instagram</a>`,
-				image: "https://instagram.fcgk29-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/139360120_774865573373246_7852738831824252126_n.jpg?tp=1&_nc_ht=instagram.fcgk29-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=t-fxq2y2nX4AX9WlXhF&edm=AP_V10EAAAAA&ccb=7-4&oh=f6545edf2a848352386b8c2006d640e9&oe=6093E61D&_nc_sid=4f375e",
+				image: "images/kotakode_b3_recruitment_mentor.jpg",
 				imageAlt: "Poster Open Recruitment Kotakode Student Mentor Batch 3",
 			},
 			{
 				text: "Kotakode Mentor Batch 3 Gathering",
 				image: "images/kotakode_b3_mentor_gathering.jpeg",
 				imageAlt: "Kotakode Mentor Batch 3 Gathering",
+			},
+		],
+	},
+	{
+		title: `Become a Mentor at Software Engineering Academy (SEA) COMPFEST 2021`,
+		subtitle: `<a href="https://www.compfest.id/">COMPFEST</a> SEA Mentor - 7 Aug 2021 - 22 Aug 2021`,
+		contents: [
+			{
+				text: `I got "NAGA" team. The team includes 4 Mentees, 1 Commitee, and 1 Mentor (me).`,
+				image: "images/compfest-2021-sea-naga-1.png",
+				imageAlt: "NAGA team - Software Engineering Academy (SEA) COMPFEST 2021",
+			},
+			{
+				text: `Why "Naga"? Look at their first names and their smiles.`,
+				image: "images/compfest-2021-sea-naga-2.png",
+				imageAlt: "NAGA with dragon background",
 			},
 		],
 	},
