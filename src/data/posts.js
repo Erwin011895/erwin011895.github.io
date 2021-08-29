@@ -253,6 +253,16 @@ const Posts = [
 				image: "images/compfest-2021-sea-naga-2.png",
 				imageAlt: "NAGA with dragon background",
 			},
+			{
+				text: `We got the "Favourite Team" award as the result.`,
+				image: "images/compfest-2021-sea-favorite_team.png",
+				imageAlt: "Software Engineering Academy (SEA) COMPFEST 2021 - Favourite Team award",
+			},
+			{
+				text: `Novel Bafagih got the Best Participant Award`,
+				image: "images/compfest-2021-sea-best-participant.png",
+				imageAlt: "Novel Bafagih got the Best Participant Award",
+			},
 		],
 	},
 ];
