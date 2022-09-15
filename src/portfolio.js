@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "Erwin",
   nickname: "Erwin",
   subTitle:
-    "Hi, I'm Erwin, a Full Stack Developer from Jakarta, Indonesia. Currently, I'm working at Shopee Indonesia as Backend Engineer and working on quite a few personal projects.",
+    "Hi, I'm Erwin from Jakarta, Indonesia. Currently, I'm working as Backend Engineer at Waresix.",
   resumeLink:
     "https://drive.google.com/file/d/1c9cWzu-cHib0477baSvMm3iEbVdFWb01/view?usp=sharing",
   portfolio_repository: "https://github.com/Dantusaikamal/Portfolio-react",
@@ -51,12 +51,12 @@ const socialMediaLinks = [
   //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   // },
 
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/erwin011895/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/erwin011895/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -103,50 +103,50 @@ const skills = {
     //   ],
     // },
     {
-      title: "Full Stack Development",
+      title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React, Bootstrap.",
+        // "⚡ Building resposive website front end using React, Bootstrap.",
         // "⚡ Developing mobile applications using Flutter, React Native ",
-        "⚡ Creating application backend in PHP, Laravel, Golang",
+        "⚡ Building application backend in PHP, Laravel, Golang",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
+        // {
+        //   skillName: "Sass",
+        //   fontAwesomeClassname: "simple-icons:sass",
+        //   style: {
+        //     color: "#CC6699",
+        //   },
+        // },
+        // {
+        //   skillName: "JavaScript",
+        //   fontAwesomeClassname: "simple-icons:javascript",
+        //   style: {
+        //     backgroundColor: "#000000",
+        //     color: "#F7DF1E",
+        //   },
+        // },
+        // {
+        //   skillName: "ReactJS",
+        //   fontAwesomeClassname: "simple-icons:react",
+        //   style: {
+        //     color: "#61DAFB",
+        //   },
+        // },
         // {
         //   skillName: "NodeJS",
         //   fontAwesomeClassname: "simple-icons:node-dot-js",
@@ -154,13 +154,13 @@ const skills = {
         //     color: "#339933",
         //   },
         // },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
         // {
         //   skillName: "Yarn",
         //   fontAwesomeClassname: "simple-icons:yarn",
@@ -194,6 +194,27 @@ const skills = {
           fontAwesomeClassname: "simple-icons:go",
           style: {
             color: "#67D0DE",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos:postgresql",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            color: "#000000",
           },
         },
       ],
@@ -489,21 +510,40 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have completed various Internships in the field of Full Stack Development that gave me industry exposure on both Front End and Back End development. Apart from Developing Web and Mobile applications, I love teaching and writing about Tech. Hence I actively contribute to Open Source Communities.",
+    "I have completed various Internships in the field of Full Stack Development that gave me industry exposure on both Front End and Back End development.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
+          title: "Middle Backend Engineer",
+          company: "Waresix",
+          company_url: "https://waresix.com/",
+          logo_path: "",
+          duration: "9 Nov 2021 - PRESENT",
+          location: "Jakarta, Indonesia",
+          description: "I am in payment-management squad",
+          color: "#FB5830",
+        },
+        {
+          title: "Backend Engineer",
+          company: "Amartha",
+          company_url: "https://amartha.com/",
+          logo_path: "",
+          duration: "2 Aug 2021 - 29 Oct 2021",
+          location: "Jakarta, Indonesia",
+          description: "I was involved on Core Banking team",
+          color: "#FB5830",
+        },
+        {
           title: "Backend Engineer",
           company: "Shopee",
           company_url: "https://shopee.co.id/",
           logo_path: "",
-          duration: "3 Feb 2020 - PRESENT",
+          duration: "3 Feb 2020 - 23 Jul 2021",
           location: "Jakarta, Indonesia",
-          description:
-            "I am working on Shopee Bubble and Arisan games in Shopee",
+          description: "I was involved on Shopee Bubble and Arisan games",
           color: "#FB5830",
         },
         {

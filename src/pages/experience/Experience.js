@@ -175,7 +175,7 @@ class Experience extends Component {
                 </h3>
                 <p
                   className="experience-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
+                  style={{ color: theme.secondaryText, textAlign: "left" }}
                 >
                   {experience["description"]}
                 </p>
