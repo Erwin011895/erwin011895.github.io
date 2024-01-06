@@ -1,0 +1,192 @@
+{
+  "metaDescription": "I'm backend developer. You can find out more about me,",
+
+  "name": "Erwin",
+  "role": "Back End Developer",
+  "profileImage": "assets/images/photo_erwin.jpg",
+  "linkedin": "https://www.linkedin.com/in/erwin011895/",
+  "github": "https://github.com/erwin011895",
+
+  "email": "erwin011895@gmail.com",
+  "location": "Jakarta",
+  "link": "https://erwin.pro/",
+  
+  "school": "Binus University",
+  "degree": "Bachelor in Computer Science and Statistic",
+  "schoolYear": "2013-2018",
+
+  "experiences": [
+    {
+      "title": "Middle Backend Engineer",
+      "company": "Waresix",
+      "companyURL": "https://www.waresix.com/",
+      "startDate": "Nov 2021",
+      "endDate": "Jan 2024",
+      "description": "Develop and maintain internal tools that handle proof-of-deliveries & invoices."
+    },
+    {
+      "title": "Senior Backend Engineer",
+      "company": "Amartha",
+      "companyURL": "https://amartha.com/",
+      "startDate": "Aug 2021",
+      "endDate": "Oct 2021",
+      "description": ""
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "Shopee",
+      "companyURL": "https://shopee.co.id/",
+      "startDate": "Feb 2020",
+      "endDate": "Jul 2021",
+      "description": "Develop Shopee Bubble & Shopee Arisan game Backend Services."
+    },
+    {
+      "title": "Software Engineer Back End",
+      "company": "Ralali",
+      "companyURL": "https://ralali.com/",
+      "startDate": "Mar 2018",
+      "endDate": "Jan 2020",
+      "description": "Developed and maintained Core Web Backend Services"
+    },
+    {
+      "title": "Software Engineer Back End - Part Time",
+      "company": "Ralali",
+      "companyURL": "https://ralali.com/",
+      "startDate": "Nov 2017",
+      "endDate": "Feb 2018",
+      "description": ""
+    },
+    {
+      "title": "Information Technology Intern",
+      "company": "PT MNC Kapital Indonesia Tbk",
+      "companyURL": "https://www.mncfinancialservices.com/",
+      "startDate": "Mar 2017",
+      "endDate": "Sep 2017",
+      "description": "Developing Mobile Web Apps from research PWA, design, wireframe, and prototyping."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Golang",
+      "valueNow": "3",
+      "valueMax": "5",
+      "width": "60"
+    },
+    {
+      "name": "PHP Laravel",
+      "valueNow": "5",
+      "valueMax": "5",
+      "width": "100"
+    },
+    {
+      "name": "CSS Bootstrap",
+      "valueNow": "3",
+      "valueMax": "3",
+      "width": "60"
+    },
+    {
+      "name": "JavaScript React-Tailwind",
+      "valueNow": "0.5",
+      "valueMax": "0.5",
+      "width": "10"
+    }
+  ],
+  "projects": [
+    {
+      "link": "https://www.esdm.go.id/psbe/",
+      "src": "assets/images/project-06-psbe-2021.png",
+      "name": "PSBE 2021",
+      "description": "A web competition portal. This A competition organized by the Ministry of Energy and Mineral Resources to find outstanding achievements in advancing the Energy and Mineral Resources sector"
+    },
+    {
+      "link": "#",
+      "src": "assets/images/project-05-vaksinasi-org.png",
+      "name": "vaksinasi.org",
+      "description": "a website for local people to register their vaccinations independently."
+    },
+    {
+      "link": "#",
+      "src": "assets/images/project-04-forphania.png",
+      "name": "Forphania",
+      "description": "A prototype project for Entrepreneurship Assignment. A Web Platform for Orphanages & Donors. It support actions such as Donate, Buy & Sell Handmade Products."
+    },
+    {
+      "link": "#",
+      "src": "assets/images/project-03-parents-board.png",
+      "name": "Parents Board",
+      "description": "A prototype project for Entrepreneurship Assignment. A general Learning Management System for Schools in Indonesia that sync and show school's report to student's parents. Its include some feature such as Teacher and Students Schedule, Lessons, and Class Management, Assignment and Exam score per class per lesson."
+    },
+    {
+      "link": "https://mentor.bslc.or.id/",
+      "src": "assets/images/project-02-bslc-web-mentor.png",
+      "name": "Web Mentor BSLC",
+      "description": "Web App for managing mentors activities, such as Registration, Briefing, and Training."
+    },
+    {
+      "link": "#",
+      "src": "assets/images/project-01-bslc-absence-system.png",
+      "name": "BSLC Absence System",
+      "description": "Desktop Application. Back-end system using C# and SQL local database."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "React Js Web Frontend",
+      "organization": "SanberCode",
+      "organizationURL": "https://sanbercode.com/",
+      "date": "Dec 2022",
+      "description": "Modern Javascript (Class, Asynchronous, ES6), ReactJS, axios, React Router",
+      "link": "https://sanbercode.com/certificate/in/c6c79088-e7f3-4979-bca5-970f5bb8044a"
+    },
+    {
+      "title": "Algo Expert",
+      "organization": "AlgoExpert",
+      "organizationURL": "https://www.algoexpert.io/",
+      "date": "Mar 2021",
+      "description": "Data Structures Crash Course, Coding Interview Questions, Coding Interview Tips",
+      "link": "https://certificate.algoexpert.io/AlgoExpert%20Certificate%20AE-8ebdb9ad71"
+    },
+    {
+      "title": "System Expert",
+      "organization": "AlgoExpert",
+      "organizationURL": "https://www.algoexpert.io/",
+      "date": "Mar 2021",
+      "description": "Systems Design Fundamentals, Systems Design Quiz",
+      "link": "https://certificate.algoexpert.io/SystemsExpert%20Certificate%20SE-d6a39a52cf"
+    },
+    {
+      "title": "Problem Solving (Intermediate)",
+      "organization": "HackerRank",
+      "organizationURL": "https://www.hackerrank.com/",
+      "date": "Sep 2020",
+      "description": "It covers topics of Data Structures (such as HashMaps, Stacks and Queues) and Algorithms (such as Optimal Solutions).",
+      "link": "https://www.hackerrank.com/certificates/26886285672c"
+    },
+    {
+      "title": "REST API (Intermediate)",
+      "organization": "HackerRank",
+      "organizationURL": "https://www.hackerrank.com/",
+      "date": "Sep 2020",
+      "description": "It covers topics like getting data from an API and process using parameters or paging.",
+      "link": "https://www.hackerrank.com/certificates/67e5c2c5115f"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Top 50 Warriors in Code Run Puzzle Warriors",
+      "organization": "Algobash",
+      "organizationURL": "https://algobash.com/en",
+      "date": "Dec 2022",
+      "description": "Code Run merupakan kompetisi programming terbuka terbesar di Indonesia. Code Puzzle Warriors adalah lomba pemecahan algoritma dengan tingkat kesulitan mudah ke sedang dan sedang ke kompleks.",
+      "link": "https://algobash.com/code-run"
+    },
+    {
+      "title": "Top 50 Programmer in Kode Indonesia 2017 Challenge",
+      "organization": "Kalibrr Indonesia",
+      "organizationURL": "https://www.kalibrr.id/id-ID/home",
+      "date": "Oct 2017",
+      "description": "Kode Indonesia 2017 Challenge is a Competitive Programming Contest that participated by 5000++ Programmers all over Indonesia.",
+      "link": "https://neo-blog.kalibrr.com/blog/id/kode-indonesia-2017-kompetisi-code-for-career-terbesar-tahun-ini"
+    }
+  ]
+}

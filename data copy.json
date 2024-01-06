@@ -1,0 +1,267 @@
+{
+  "name": "Erwin",
+  "role": "Back End Developer",
+  "description": "I'm backend developer. You can find out more about me,",
+  "profileImage": "assets/images/photo_erwin.jpg",
+  "general": {
+    "title": "Erwin",
+    "logo_name": "Erwin",
+    "nickname": "Erwin",
+    "subTitle": "Hi, I'm Erwin from Jakarta, Indonesia. Currently, I'm working as Backend Engineer at Waresix.",
+    "resumeLink": "https://drive.google.com/file/d/1c9cWzu-cHib0477baSvMm3iEbVdFWb01/view?usp=sharing",
+    "portfolio_repository": "https://github.com/Dantusaikamal/Portfolio-react"
+  },
+  "socialMediaLinks": [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/erwin011895/",
+      "fontAwesomeIcon": "fa-linkedin-in",
+      "backgroundColor": "#0077B5"
+    }
+  ],
+  "skills": {
+    "data": [
+      {
+        "title": "Backend Development",
+        "fileName": "FullStackImg",
+        "skills": ["⚡ Building application backend in PHP, Laravel, Golang"],
+        "softwareSkills": [
+          {
+            "skillName": "PHP",
+            "fontAwesomeClassname": "simple-icons:php",
+            "style": { "color": "#7377AD" }
+          },
+          {
+            "skillName": "Laravel",
+            "fontAwesomeClassname": "simple-icons:laravel",
+            "style": { "color": "#FF2E20" }
+          },
+          {
+            "skillName": "Golang",
+            "fontAwesomeClassname": "simple-icons:go",
+            "style": { "color": "#67D0DE" }
+          },
+          {
+            "skillName": "MySQL",
+            "fontAwesomeClassname": "logos:mysql",
+            "style": { "color": "#000000" }
+          },
+          {
+            "skillName": "PostgreSQL",
+            "fontAwesomeClassname": "logos:postgresql",
+            "style": { "color": "#000000" }
+          },
+          {
+            "skillName": "Redis",
+            "fontAwesomeClassname": "logos:redis",
+            "style": { "color": "#000000" }
+          }
+        ]
+      }
+    ]
+  },
+  "competitiveSites": {
+    "competitiveSites": [
+      {
+        "siteName": "HackerRank",
+        "iconifyClassname": "simple-icons:hackerrank",
+        "style": { "color": "#2EC866" },
+        "profileLink": "https://www.hackerrank.com/erwin011895"
+      },
+      {
+        "siteName": "Leetcode",
+        "iconifyClassname": "simple-icons:leetcode",
+        "style": { "color": "#FBC02D" },
+        "profileLink": "https://leetcode.com/winfall/"
+      },
+      {
+        "siteName": "Codeforces",
+        "iconifyClassname": "simple-icons:codeforces",
+        "style": { "color": "#1E92CF" },
+        "profileLink": "https://codeforces.com/profile/NekuSakuraba"
+      }
+    ]
+  },
+  "degrees": {
+    "degrees": [
+      {
+        "title": "Binus University",
+        "subtitle": "S.Kom., S.Si., in Computer Science and Statistic",
+        "logo_path": "logo_binus.png",
+        "alt_name": "Binus University",
+        "duration": "2013 - 2018",
+        "descriptions": [
+          "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, AI etc.",
+          "⚡ Apart from this, I joined student organizations and participated on Binus events",
+          "⚡ I participated on 1 programming contest and secured top 50 position."
+        ],
+        "website_link": "http://binus.ac.id"
+      }
+    ]
+  },
+  "certifications": {
+    "certifications": [
+      {
+        "title": "Algo Expert",
+        "subtitle": "AlgoExpert.com",
+        "logo_path": "algoexpert.png",
+        "certificate_link": "https://www.hackerrank.com/certificates/26886285672c",
+        "alt_name": "Algo Expert",
+        "color_code": "#00000099"
+      },
+      {
+        "title": "System Expert",
+        "subtitle": "AlgoExpert.com",
+        "logo_path": "algoexpert.png",
+        "certificate_link": "https://www.hackerrank.com/certificates/26886285672c",
+        "alt_name": "System Expert",
+        "color_code": "#00000099"
+      },
+      {
+        "title": "Problem Solving (Intermediate) Certificate",
+        "subtitle": "HackerRank",
+        "logo_path": "hackerrank.png",
+        "certificate_link": "https://www.hackerrank.com/certificates/26886285672c",
+        "alt_name": "Problem Solving (Intermediate) Certificate",
+        "color_code": "#00000099"
+      },
+      {
+        "title": "Problem Solving (Basic) Certificate",
+        "subtitle": "HackerRank",
+        "logo_path": "hackerrank.png",
+        "certificate_link": "https://www.hackerrank.com/certificates/4207f8c394e8",
+        "alt_name": "Problem Solving (Basic) Certificate",
+        "color_code": "#00000099"
+      },
+      {
+        "title": "Rest API (Intermediate) Certificate",
+        "subtitle": "HackerRank",
+        "logo_path": "hackerrank.png",
+        "certificate_link": "https://www.hackerrank.com/certificates/67e5c2c5115f",
+        "alt_name": "Rest API (Intermediate) Certificate",
+        "color_code": "#00000099"
+      },
+      {
+        "title": "JavaScript (Basic) Certificate",
+        "subtitle": "HackerRank",
+        "logo_path": "hackerrank.png",
+        "certificate_link": "https://www.hackerrank.com/certificates/c224c3112f5b",
+        "alt_name": "JavaScript (Basic) Certificate",
+        "color_code": "#00000099"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Work, Internship and Volunteership",
+    "description": "I have completed various Internships in the field of Full Stack Development that gave me industry exposure on both Front End and Back End development.",
+    "header_image_path": "experience.svg",
+    "sections": [
+      {
+        "title": "Work",
+        "experiences": [
+          {
+            "title": "Middle Backend Engineer",
+            "company": "Waresix",
+            "company_url": "https://waresix.com/",
+            "logo_path": "",
+            "duration": "9 Nov 2021 - PRESENT",
+            "location": "Jakarta, Indonesia",
+            "description": "I am in payment-management squad",
+            "color": "#FB5830"
+          },
+          {
+            "title": "Backend Engineer",
+            "company": "Amartha",
+            "company_url": "https://amartha.com/",
+            "logo_path": "",
+            "duration": "2 Aug 2021 - 29 Oct 2021",
+            "location": "Jakarta, Indonesia",
+            "description": "I was involved on Core Banking team",
+            "color": "#FB5830"
+          },
+          {
+            "title": "Backend Engineer",
+            "company": "Shopee",
+            "company_url": "https://shopee.co.id/",
+            "logo_path": "",
+            "duration": "3 Feb 2020 - 23 Jul 2021",
+            "location": "Jakarta, Indonesia",
+            "description": "I was involved on Shopee Bubble and Arisan games",
+            "color": "#FB5830"
+          },
+          {
+            "title": "Backend Engineer",
+            "company": "Ralali",
+            "company_url": "https://www.ralali.com/",
+            "logo_path": "",
+            "duration": "Feb 2018 - Jan 2020",
+            "location": "Jakarta, Indonesia",
+            "description": "I worked on various features in Ralali",
+            "color": "#FB5830"
+          }
+        ]
+      },
+      {
+        "title": "Parttime & Internships",
+        "experiences": [
+          {
+            "title": "Parttime Backend Developer",
+            "company": "Ralali",
+            "company_url": "https://www.ralali.com/",
+            "logo_path": "",
+            "duration": "Nov 2017 - Jan 2018",
+            "location": "Jakarta, Indonesia",
+            "description": "With 1 of my connection referral, I joined Ralali as parttimer. I developed RFQ (Request for Quotation) product during this period.",
+            "color": "#FB5830"
+          },
+          {
+            "title": "IT Developer",
+            "company": "PT MNC KAPITAL INDONESIA TBK",
+            "company_url": "https://www.mncgroup.com/microsite/mnc-financial-services",
+            "logo_path": "",
+            "duration": "Mar 2017 - Aug 2017",
+            "location": "Jakarta, Indonesia",
+            "description": "I have worked on project of designing and developing a Mobile Web application prototypes for Personal Finance Product. I'm designing wireframes using Balsamic and I'm developing the applications using PWA and Firebase.",
+            "color": "#213E7B"
+          },
+          {
+            "title": "Android Dev to Backend Engineer",
+            "company": "Lazato Indonesia",
+            "company_url": "https://www.instagram.com/lazato/",
+            "logo_path": "",
+            "duration": "Mar 2016 - Nov 2016",
+            "location": "Jakarta, Indonesia",
+            "description": "This is my first working experience. Starting as Android Dev and shifted to Backend Engineer. I learnt much about mobile and API development using Java & Laravel.",
+            "color": "#3FA7D2"
+          }
+        ]
+      }
+    ]
+  },
+  "projectsHeader": {
+    "title": "Projects",
+    "description": "My projects makes use of vast variety of latest technology tools. My best experience is to create Web Design and Development projects.",
+    "avatar_image_path": "projects_image.svg"
+  },
+  "contactPageData": {
+    "contactSection": {
+      "title": "Contact Me",
+      "profile_image_path": "erwin.jpg",
+      "description": "You can message me, I will try to reply within 48 hours. I can help you with Web Development."
+    },
+    "blogSection": {
+      "title": "Blogs",
+      "subtitle": "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+      "link": "https://medium.com/@dantusaikamal",
+      "avatar_image_path": "blogs_image.svg"
+    },
+    "addressSection": {
+      "title": "Address",
+      "subtitle": "Sukabumi Selatan, Kebon Jeruk, Jakarta Barat",
+      "avatar_image_path": "address_image.svg",
+      "location_map_link": "https://goo.gl/maps/MrWkeWdGNXXo7ozW8"
+    },
+    "phoneSection": { "title": "Phone Number", "subtitle": "+62 82210480625" }
+  }
+}

@@ -1,0 +1,15 @@
+<div class="item">
+    <h3 class="level-title">
+        {{name}}
+        <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="">
+            <!-- <i class="fas fa-info-circle"></i> -->
+            {{valueNow}} years
+        </span>
+    </h3>
+
+    <div class="level-bar progress">
+        <!-- style="width: 90%" -->
+        <div class="progress-bar level-bar-inner" role="progressbar" style="width: {{width}}%"
+            aria-valuenow="{{valueNow}}" aria-valuemin="0" aria-valuemax="{{valueMax}}"></div>
+    </div>
+</div>
