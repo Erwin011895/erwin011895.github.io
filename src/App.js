@@ -1,13 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
 import Post from './components/Post';
 import Posts from './data/posts.js';
 
 function App(props) {
   return (
     <div className="margin paper App">
-      <Header name={props.config.name} />
+      <header>
+        <h1 className="text-center">{props.config.name}</h1>
+      </header>
 
       {Posts.map((post, i) => 
         <Post key={i} post={post}/>
