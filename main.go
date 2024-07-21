@@ -72,9 +72,6 @@ func generate() {
 	}
 
 	mainTemplateByte := readFile(MainTemplatePath)
-	if err != nil {
-		panic(err)
-	}
 	templateString := string(mainTemplateByte)
 
 	for k, v := range dataJsonMap {
